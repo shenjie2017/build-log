@@ -102,7 +102,7 @@ if __name__ == "__main__":
     if argv_len >= 4:
         generate_log(filename=argv[1], count=int(argv[2]), max_step_time=int(argv[3]))
     elif argv_len >= 3:
-        generate_log(filename=int(argv[1]), count=int(argv[2]))
+        generate_log(filename=argv[1], count=int(argv[2]))
     elif argv_len >= 2:
         generate_log(filename=argv[1])
     else:
